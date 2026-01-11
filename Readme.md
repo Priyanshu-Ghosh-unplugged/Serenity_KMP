@@ -1,121 +1,44 @@
 <div align="center">
-  <img src="fastlane/metadata/android/en-US/images/icon.png" style="width: 30%;" />
-  <h2>QuestPhone</h2>
-
-  <a href="https://github.com/questphone/questphone/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/questphone/questphone" alt="GitHub contributors" />
-  </a><!--  -->
-  <a href="https://discord.gg/RGuqaMHxAw">
-    <img src="https://img.shields.io/badge/Discord%20Server-white?style=flat&logo=discord" alt="Discord Server" />
-  </a>
-  <a href="https://t.me/questphone">
-    <img src="https://img.shields.io/badge/Telegram%20Group-blue?style=flat&logo=telegram" alt="Telegram Group" />
-  </a>
-  <a href="https://github.com/questphone/questphone/releases">
-    <img src="https://img.shields.io/github/downloads/questphone/questphone/total" alt="Total Downloads" />
-  </a>
-  <a href="https://github.com/questphone/questphone">
-    <img src="https://img.shields.io/github/repo-size/questphone/questphone" alt="Repository Size" />
-  </a>
+  <img src="fastlane/metadata/android/en-US/images/icon.png" alt="Serenity app icon" style="width: 30%;" />
+  <h1>Serenity</h1>
+  <p>Your phone, finally on your side.</p>
 </div>
 
 ---
 
-**QuestPhone** is an open-source Android productivity utility designed to help users reduce screen addiction by regulating app usage through a gamified experience. The application blocks distracting apps and unlocks them only once the user completes all their work.
+**Serenity** is an open-source, privacy-first Android application that helps you find balance in your digital life. It detects cognitive overload from your phone usage and gently guides you into restorative "Sanctuary" sessions.
 
-It was started in April 2024 under the name *DigipawsFull* and is now continued as *QuestPhone*.
+> [!NOTE]
+> This project is built with Kotlin Multiplatform, aiming for a future where you can find Serenity on more than just your Android device.
 
-> [!CAUTION]
-> This project is experimental and not yet ready for full production. [Donate](https://digipaws.life/donate)
-
-
-> [!CAUTION]
-> This is a continuation of the [DigipawsFull Project](https://www.github.com/nethical6/digipaws)
 ---
+
+## ✨ Core Philosophy
+
+- **On-Device Intelligence**: All processing and decision-making happens directly on your device. Your data never leaves your phone.
+- **Privacy First**: No invasive tracking, no ads, and no surveillance. Serenity is built on the principle that your wellbeing is your own business.
+- **Gentle Guidance**: Instead of punitive blocking, Serenity offers gentle nudges and opportunities for you to take a break when you need it most.
 
 ## 🚀 Features
 
-- **Open Source**: Fully transparent, with the source code available for community contributions.
-- **Productivity Enhancement**: Helps build healthier digital habits and reduce screen addiction.
-- **Gamified**: Level up, make streaks, collect objects, earn rewards, and more.
-- **Minimal Launcher**: Optional launcher that turns your device into a productivity beast.
-- **Unlimited Possibilities**: Almost any real-life habit can be converted into a quest.
-- **Strict Checking**: Not just checkboxes—uses integrations to verify your quests.
+- **Cognitive Overload Detection**: Intelligently senses when you might be overwhelmed by your device usage.
+- **Sanctuary Sessions**: Guides you into moments of restorative peace with calming visuals and sounds.
+- **Offline-First**: Works entirely offline, ensuring your data and your peace are always protected.
+- **Minimalist Design**: A clean, intuitive interface designed to reduce distraction.
 
----
+## 🛠️ Tech Stack & Architecture
 
-## 📸 Screenshots
+Serenity is built with a modern, scalable, and privacy-focused tech stack:
 
-Click on any image to enlarge.
+- **[Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform-mobile-getting-started.html)**: Core logic is written in Kotlin and shared across platforms.
+- **[Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/)**: The user interface is built with this modern declarative UI toolkit.
+- **[Room](https://developer.android.com/training/data-storage/room)**: For robust, on-device database storage.
+- **[Dagger Hilt](https://developer.android.com/training/dependency-injection/hilt-android)**: For dependency injection on the Android platform.
 
-<table>
-  <tr>
-    <td><img src='fastlane/metadata/android/en-US/images/phoneScreenshots/1.png' width='120'></td>
-    <td><img src='fastlane/metadata/android/en-US/images/phoneScreenshots/2.png' width='120'></td>
-    <td><img src='fastlane/metadata/android/en-US/images/phoneScreenshots/3.png' width='120'></td>
-    <td><img src='fastlane/metadata/android/en-US/images/phoneScreenshots/4.png' width='120'></td>
-    <td><img src='fastlane/metadata/android/en-US/images/phoneScreenshots/5.png' width='120'></td>
-    <td><img src='fastlane/metadata/android/en-US/images/phoneScreenshots/6.png' width='120'></td>
-  </tr>
-</table>
+## 🤝 Contributing
 
----
+Contributions are welcome! Whether it's bug reports, feature requests, or code contributions, please feel free to open an issue or submit a pull request.
 
-## 🔌 Integrations
+## 📜 License
 
-Integrations are how your quests get verified. 
-Press on any title to get a detailed explanation about them
-
-- **[Health Connect](https://github.com/QuestPhone/docs/blob/main/integration/HealthConnect.md)**: Connects to your fitness watch or reads data from other apps.
-- **[AI Snap](https://github.com/QuestPhone/docs/blob/main/integration/AiSnap.md)**: Prompts users to snap a photo after completing the task.
-- **[Deep Focus](https://github.com/QuestPhone/docs/blob/main/integration/DeepFocus.md)**: Blocks all but selected apps for focused time.
-- **[Swift Mark](https://github.com/QuestPhone/docs/blob/main/integration/HealthConnect.md)**: Simple tap-to-complete mode with no strict verification.
-- **External Integration**: Connect external apps to questphone
-
----
-
-## 📝 Todo
-
-- [x] Add an API for other developers to turn their apps into quests.
-- [ ] Add friends and social features.
-- [x] AI-generated motivational reminders.
-
-## Features
-- Full Blown minimal launcher with support for widgets 
-- Track Steps, Distance covered, Hydration, Sleep, and Calories burned via Health Connect
-- Habit tracker cum Habit former
-- On Device AI model for Ai Quest Verification (doesn't work properly rn, need help :sob:)
-- Reminders from our on device ai 
-- Supports external integrations via the questphone api
-- Screentime statistics
-- Quest Statistics
-- Shareable profiles [example](https://questphone.app/@nethical)
-- Cool Animations
-
-## Faq
-
-### Q: Is QuestPhone safe?
-
-**A:** Yes, way safer than any closed source app blocker and habit trackers on play-store.
-
-
-### Q: Why is Questphone a launcher?
-**A:** The only way for us to make app blocker service always run without using accessibility service was through this
-
-### Q: Can i use it as a simple habit tracker?
-**A:** yes! you can simply select no apps as distractive and enjoy your habit tracker
-
-
-
-
-
-
-## Tech Stack
-- Compose
-- Room 
-- Supabase
-- Dagger Hilt
----
-
-
-We can def win over brainrot
+This project is open source and available under the [MIT License](LICENSE).
