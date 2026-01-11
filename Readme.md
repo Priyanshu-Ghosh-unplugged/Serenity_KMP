@@ -1,44 +1,55 @@
-<div align="center">
-  <img src="fastlane/metadata/android/en-US/images/icon.png" alt="Serenity app icon" style="width: 30%;" />
-  <h1>Serenity</h1>
-  <p>Your phone, finally on your side.</p>
-</div>
+# Serenity KMP
 
----
+**Your phone, finally on your side.**
 
-**Serenity** is an open-source, privacy-first Android application that helps you find balance in your digital life. It detects cognitive overload from your phone usage and gently guides you into restorative "Sanctuary" sessions.
+Serenity is an open-source, privacy-first Android application that helps you find balance in your digital life. It detects cognitive overload from how you use your phone and gently guides you into moments of rest. Offline-first, on-device, and privacy-respecting.
 
-> [!NOTE]
-> This project is built with Kotlin Multiplatform, aiming for a future where you can find Serenity on more than just your Android device.
+## ✨ Features
 
----
+*   **Cognitive Overload Detection**: Serenity's on-device AI detects patterns of cognitive overload based on your phone usage, without ever sending your data to the cloud.
+*   **Restorative Sanctuary Sessions**: When the app detects decision fatigue, it gently guides you into restorative "Sanctuary" sessions to help you disconnect and recharge.
+*   **Complete Privacy**: All your data and analysis stay on your device. No wearables, no tracking, no surveillance, no ads. Ever.
+*   **Open-Source & Transparent**: Built with Kotlin, Serenity is fully open-source, allowing for complete transparency and community contributions.
+*   **Ethically Built**: Designed to help you use your phone less, not more.
 
-## ✨ Core Philosophy
+## 🚀 Installation
 
-- **On-Device Intelligence**: All processing and decision-making happens directly on your device. Your data never leaves your phone.
-- **Privacy First**: No invasive tracking, no ads, and no surveillance. Serenity is built on the principle that your wellbeing is your own business.
-- **Gentle Guidance**: Instead of punitive blocking, Serenity offers gentle nudges and opportunities for you to take a break when you need it most.
+To build and run the app on your own device, follow these steps:
 
-## 🚀 Features
+1.  **Clone the repository**:
 
-- **Cognitive Overload Detection**: Intelligently senses when you might be overwhelmed by your device usage.
-- **Sanctuary Sessions**: Guides you into moments of restorative peace with calming visuals and sounds.
-- **Offline-First**: Works entirely offline, ensuring your data and your peace are always protected.
-- **Minimalist Design**: A clean, intuitive interface designed to reduce distraction.
+    ```bash
+    git clone https://github.com/Priyanshu-Ghosh-unplugged/Serenity_KMP.git
+    ```
 
-## 🛠️ Tech Stack & Architecture
+2.  **Open in Android Studio**:
 
-Serenity is built with a modern, scalable, and privacy-focused tech stack:
+    *   Open the latest version of Android Studio.
+    *   Select `File > Open`.
+    *   Navigate to the cloned `Serenity_KMP` directory and open it.
 
-- **[Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform-mobile-getting-started.html)**: Core logic is written in Kotlin and shared across platforms.
-- **[Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/)**: The user interface is built with this modern declarative UI toolkit.
-- **[Room](https://developer.android.com/training/data-storage/room)**: For robust, on-device database storage.
-- **[Dagger Hilt](https://developer.android.com/training/dependency-injection/hilt-android)**: For dependency injection on the Android platform.
+3.  **Build the Project**:
+
+    *   Allow Android Studio to sync the project and download the necessary Gradle dependencies.
+    *   Click on `Build > Make Project` to compile the application.
+
+4.  **Run the App**:
+
+    *   Connect your Android device or start an Android emulator.
+    *   Select `Run > Run 'app'` to install and launch Serenity on your device.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Whether it's bug reports, feature requests, or code contributions, please feel free to open an issue or submit a pull request.
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## 📜 License
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-This project is open source and available under the [MIT License](LICENSE).
+1.  **Fork the Project**
+2.  **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3.  **Commit your Changes** (`git commit -m 'feat: Add some AmazingFeature'`)
+4.  **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5.  **Open a Pull Request**
+
+## 📄 License
+
+This project is licensed under the MIT License.
